@@ -1,0 +1,26 @@
+
+// @import "Abstacts/mixins";
+// @import "Abstacts/variables";
+
+
+
+// @import "Base/animations";
+@import "Base/base";
+@import "Base/layout";
+@import "Base/typography";
+// @import "Base/utility";
+
+
+
+
+
+@import "Components/components";
+
+
+@import "Layouts/header";
+@import "Layouts/navigation";
+@import "Layouts/footer";
+
+
+@import "Pages/home";
+

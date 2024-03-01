@@ -1,0 +1,15 @@
+ {
+  "name": "trilo",
+  "version": "1.0.0",
+  "description": "Good modern responsive design",
+  "main": "index.js",
+  "scripts": {
+    
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "Uche-Daniel Nzube",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^9.0.0"
+  }
+}

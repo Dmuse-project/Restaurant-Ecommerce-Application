@@ -1,0 +1,131 @@
+// APP SETTINGS
+.header{
+  // background-color: var(--color-primary-dark);
+  grid-row: 1/2;
+  grid-column: full-start/col-start 6;
+
+  @media only screen and (max-width:$bp-large){
+    grid-row:1/2;
+    grid-column: full-start/full-end;
+     }
+}
+
+.dish-carousel{
+  background-image: linear-gradient(to right bottom, $color-primary-dark, #000);
+  grid-row: 1/2;
+  grid-column: col-start 6/ full-end;
+
+  @media only screen and (max-width:$bp-large){
+    grid-row:4/5;
+    grid-column: full-start/full-end;
+     }
+}
+
+.nav{
+  background-image: linear-gradient(to right bottom, rgba($color-primary-dark, 1), rgba(#000, 0.98));
+
+  // background-image: linear-gradient(to right bottom, $color-primary-dark, #000);
+  grid-row:1/-1;
+
+  @media only screen and (max-width:$bp-normal-large){
+    grid-row: 1/2;
+    grid-column:full-start/full-end;
+
+    align-self:start;
+  }
+
+  
+}
+
+.most-rated{
+ background-color: #fff;
+  grid-row:4/5;
+  grid-column:center-start/center-end;
+  font-size:1.4rem;
+
+  
+  @media only screen and (max-width:$bp-large){
+    grid-row:5/6;
+   
+     }
+
+}
+
+.main{
+  // background-color:blue;
+  grid-row:2/3;
+  grid-column: full-start/full-end;
+
+  
+  
+}
+
+.dishes-form{
+  
+  grid-row:3/4;
+  grid-column:center-start/center-end;
+  grid-row-gap:8rem;
+
+  
+
+}
+.story{
+
+  grid-row:5/6;
+  grid-column:full-start/col-end 4;
+
+  
+  @media only screen and (max-width:$bp-large){
+    grid-row:6/7;
+   
+     }
+
+     @media only screen and (max-width:$bp-medium){
+  grid-column:full-start/full-end;
+ grid-row:6/7;
+   }
+
+
+
+}
+
+.user-review{
+background-color:var(--color-grey-light-2);
+grid-row:5/6;
+grid-column: col-end 4/full-end ;
+// background-color: yellowgreen;
+
+
+@media only screen and (max-width:$bp-large){
+  grid-row:6/7;
+ 
+   }
+@media only screen and (max-width:$bp-medium){
+  grid-row:7/8;
+  grid-column:full-start/full-end;
+ 
+   }
+}
+
+.footer{
+ 
+  grid-column: 2/-1;
+  grid-row: 6/-1;
+  
+  @media only screen and (max-width:$bp-large){
+    grid-row:7/8;
+   
+     }
+
+     @media only screen and (max-width:$bp-normal-large){
+      grid-column:full-start/full-end;
+  
+    }
+
+
+    @media only screen and (max-width:$bp-medium){
+      grid-row:8/9;
+     
+       }
+
+}

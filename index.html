@@ -1,0 +1,982 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="shortcut icon" type="image/png" href="img/logo-techcrunch.png" />
+    <title>TasteBuds</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="nav">
+        <div class="nav-logo">
+          <div class="nav__logo">
+            <!-- <svg class="header__icon">
+              <use xlink:href="img/sprite.svg#icon-spoon-knife"></use>
+            </svg> -->
+            <h1 class="nav__text">TasteBuds</h1>
+          </div>
+        </div>
+        <div class="nav-container">
+        <input type="checkbox" class="nav__checkbox" id="nav-toggle" />
+
+        <label for="nav-toggle" class="nav__btn-container">
+          <span class="nav__button"></span>
+        </label>
+
+        <div class="nav__background"></div>
+
+        <nav class="navbar">
+          <ul class="navbar__list">
+            <li class="navbar__item navbar__item--active">
+              <a href="#" class="navbar__link" id="navbar__link--active"
+                ><span class="navbar__svg-container"
+                  ><svg
+                    class="navbar__icon navbar__icon--1"
+                    id="navbar__icon--active"
+                  >
+                    <use
+                      xlink:href="img/sprite.svg#icon-spoon-knife"
+                    ></use></svg></span
+                >Menu</a
+              >
+            </li>
+            <li class="navbar__item">
+              <a href="#" class="navbar__link"
+                ><span class="navbar__svg-container"
+                  ><svg class="navbar__icon navbar__icon--2">
+                    <use
+                      xlink:href="img/sprite.svg#icon-library"
+                    ></use></svg></span
+                >Reservation</a
+              >
+            </li>
+            <li class="navbar__item">
+              <a href="#" class="navbar__link"
+                ><span class="navbar__svg-container"
+                  ><svg class="navbar__icon navbar__icon--3">
+                    <use
+                      xlink:href="img/sprite.svg#icon-user-check"
+                    ></use></svg></span
+                >Profile</a
+              >
+            </li>
+            <li class="navbar__item">
+              <a href="#" class="navbar__link"
+                ><span class="navbar__svg-container"
+                  ><svg class="navbar__icon navbar__icon--4">
+                    <use
+                      xlink:href="img/sprite.svg#icon-auto_stories"
+                    ></use></svg></span
+                >Stories</a
+              >
+            </li>
+          </ul>
+        </nav>
+        </div>
+      </div>
+
+      <div class="header">
+        <div class="header__logo">
+          <!-- <svg class="header__icon">
+            <use xlink:href="img/sprite.svg#icon-spoon-knife"></use>
+          </svg> -->
+          <h1 class="header__text">TasteBuds</h1>
+        </div>
+
+        <h2 class="heading-3">Your meals:</h2>
+        <h3 class="heading-1">Where Every Bite Tells a Story</h3>
+        <button class="btn header-btn">Purchase</button>
+
+        <div class="header__seenon-text">Seen on</div>
+        <div class="header__seenon-logos">
+          <img src="img/logo-bbc.png" alt="Seen on logo 1" />
+          <img src="img/logo-forbes.png" alt="Seen on logo 2" />
+          <img src="img/logo-techcrunch.png" alt="Seen on logo 3" />
+          <img src="img/logo-bi.png" alt="Seen on logo 4" />
+        </div>
+      </div>
+
+      <div class="dish-carousel">
+        <div class="dish-carousel__spans">
+          <span class="dish-carousel__span--active"></span>
+          <span class="dish-carousel__span"></span>
+          <span class="dish-carousel__span"></span>
+          <span class="dish-carousel__span"></span>
+          <span class="dish-carousel__span"></span>
+          <span class="dish-carousel__span"></span>
+          <span class="dish-carousel__span"></span>
+          <span class="dish-carousel__span"></span>
+        </div>
+
+        <div class="box">
+          <div class="box__imgs">
+            <img
+              src="img/Tea and bread.webp"
+              alt="tea and bread"
+              class="box__img"
+            />
+          </div>
+
+        </div> 
+
+
+        
+        <div class="box__icon">
+          <svg class="box__icon--prev">
+            <use xlink:href="img/sprite1.svg#icon-backward2"></use>
+          </svg>
+
+          <svg class="box__icon--next">
+            <use xlink:href="img/sprite1.svg#icon-forward3"></use>
+          </svg>
+        </div>
+      
+
+        <div class="dish-carousel__button">
+          <button class="btn carousel-btn">order now</button>
+        </div>
+      </div>
+
+      <div class="most-rated">
+        <h1 class="most-rated__heading">Featured Meals</h1>
+        <div class="most-rated__meals">
+          <figure class="most-rated__icon">
+            <img
+              src="img/american bugger.jpg"
+              alt="American bugger"
+              class="most-rated__img"
+            />
+          </figure>
+
+          <h3 class="most-rated__product">Sandwiches</h3>
+          <h1 class="most-rated__title">American Bugger</h1>
+          <p class="most-rated__description">
+            Indulge in the culinary symphony of flavors with our mouthwatering
+            Signature Burger, crafted to perfection.
+          </p>
+          <div class="most-rated__action">
+            <div class="most-rated__price">
+              <p class="most-rated__price--name">Price <span>$4.99</span></p>
+            </div>
+
+            <form action="/" class="most-rated__form">
+              <div class="most-rated__amount">
+                <input
+                  id="amount"
+                  type="number"
+                  min="1"
+                  max="5"
+                  step="1"
+                  class="F-input"
+                  defaultValue="1"
+                  value="1"
+                  required
+                />
+                <label for="amount">Amount</label>
+              </div>
+
+              <div class="most-rated__button">
+                <button class="btn most-rated__btn" type="submit">Try</button>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div class="most-rated__meals">
+          <figure class="most-rated__icon">
+            <img
+              src="img/chicken-wings.webp"
+              alt="Chicken Wings"
+              class="most-rated__img"
+            />
+          </figure>
+
+          <h3 class="most-rated__product">Appetizers</h3>
+          <h1 class="most-rated__title">Chicken Wings</h1>
+          <p class="most-rated__description">
+            Elevate your wing experience with our signature sauces, where every
+            bite is a journey into crispy bliss.
+          </p>
+          <div class="most-rated__action">
+            <div class="most-rated__price">
+              <p class="most-rated__price--name">Price <span>$10.23</span></p>
+            </div>
+
+            <form action="/" class="most-rated__form">
+              <div class="most-rated__amount">
+                <input
+                  id="amount"
+                  type="number"
+                  min="1"
+                  max="5"
+                  step="1"
+                  class="F-input"
+                  defaultValue="1"
+                  value="1"
+                  required
+                />
+                <label for="amount">Amount</label>
+              </div>
+
+              <div class="most-rated__button">
+                <button class="btn most-rated__btn" type="submit">Try</button>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div class="most-rated__meals">
+          <figure class="most-rated__icon">
+            <img
+              src="img/Beans-vegitable-salada.webp"
+              alt="Beans-vegitable-salada"
+              class="most-rated__img"
+            />
+          </figure>
+
+          <h3 class="most-rated__product">Salads</h3>
+          <h1 class="most-rated__title">Beans Vegitable Salad</h1>
+          <p class="most-rated__description">
+            Immerse yourself in the crunch of garden-fresh vegetables, where
+            each bite is a burst of freshness.
+          </p>
+          <div class="most-rated__action">
+            <div class="most-rated__price">
+              <p class="most-rated__price--name">Price <span>$6.99</span></p>
+            </div>
+
+            <form action="/" class="most-rated__form">
+              <div class="most-rated__amount">
+                <input
+                  id="amount"
+                  type="number"
+                  min="1"
+                  max="5"
+                  step="1"
+                  class="F-input"
+                  defaultValue="1"
+                  value="1"
+                  required
+                />
+                <label for="amount">Amount</label>
+              </div>
+
+              <div class="most-rated__button">
+                <button class="btn most-rated__btn" type="submit">Try</button>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div class="most-rated__meals">
+          <figure class="most-rated__icon">
+            <img
+              src="img/cucumber smootie.webp"
+              alt="Cucumber Smootie"
+              class="most-rated__img"
+            />
+          </figure>
+
+          <h3 class="most-rated__product">Beverages</h3>
+          <h1 class="most-rated__title">Cucumber Smootie</h1>
+          <p class="most-rated__description">
+            Dive into a world of crisp refreshment with our revitalizing
+            Cucumber Smoothie, packed with vitamins, minerals, and antioxidants.
+          </p>
+          <div class="most-rated__action">
+            <div class="most-rated__price">
+              <p class="most-rated__price--name">Price <span>$5.55</span></p>
+            </div>
+
+            <form action="/" class="most-rated__form">
+              <div class="most-rated__amount">
+                <input
+                  id="amount"
+                  type="number"
+                  min="1"
+                  max="5"
+                  step="1"
+                  class="F-input"
+                  defaultValue="1"
+                  value="1"
+                  required
+                />
+                <label for="amount">Amount</label>
+              </div>
+
+              <div class="most-rated__button">
+                <button class="btn most-rated__btn" type="submit">Try</button>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div class="most-rated__meals">
+          <figure class="most-rated__icon">
+            <img
+              src="img/french-fries.webp"
+              alt="French-fries"
+              class="most-rated__img"
+            />
+          </figure>
+
+          <h3 class="most-rated__product">Appetizers</h3>
+          <h1 class="most-rated__title">French Fries</h1>
+          <p class="most-rated__description">
+            Perfect for gatherings, movie nights, or any occasion that calls for
+            crispy goodness.
+          </p>
+          <div class="most-rated__action">
+            <div class="most-rated__price">
+              <p class="most-rated__price--name">Price <span>$10.99</span></p>
+            </div>
+
+            <form action="/" class="most-rated__form">
+              <div class="most-rated__amount">
+                <input
+                  id="amount"
+                  type="number"
+                  min="1"
+                  max="5"
+                  step="1"
+                  class="F-input"
+                  defaultValue="1"
+                  value="1"
+                  required
+                />
+                <label for="amount">Amount</label>
+              </div>
+
+              <div class="most-rated__button">
+                <button class="btn most-rated__btn" type="submit">Try</button>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div class="most-rated__meals">
+          <figure class="most-rated__icon">
+            <img
+              src="img/rice-source.jpg"
+              alt="Rice-soucre"
+              class="most-rated__img"
+            />
+          </figure>
+
+          <h3 class="most-rated__product">Entrees</h3>
+          <h1 class="most-rated__title">Rice & Stew</h1>
+          <p class="most-rated__description">
+            A carefully crafted medley of proteins, vegetables, and aromatic
+            spices.
+          </p>
+          <div class="most-rated__action">
+            <div class="most-rated__price">
+              <p class="most-rated__price--name">Price <span>$20</span></p>
+            </div>
+
+            <form action="/" class="most-rated__form">
+              <div class="most-rated__amount">
+                <input
+                  id="amount"
+                  type="number"
+                  min="1"
+                  max="5"
+                  step="1"
+                  class="F-input"
+                  defaultValue="1"
+                  value="1"
+                  required
+                />
+                <label for="amount">Amount</label>
+              </div>
+
+              <div class="most-rated__button">
+                <button class="btn most-rated__btn" type="submit">Try</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div class="main">
+        <div class="main-content">
+          <form action="#" class="main-content__search">
+            <input
+              type="text"
+              class="main-content__search__input"
+              placeholder="search"
+            />
+
+            <button class="main-content__search__button">
+              <svg class="main-content__search__button--btn">
+               
+               <use xlink:href="img/sprite.svg#icon-library"></use>
+           
+              </svg>
+            </button>
+          </form>
+
+          <div class="main-content__categories">
+            <nav class="main-content__categories__nav">
+              <ul class="main-content__categories__nav--items">
+                <li class="main-content__categories__nav--item">
+                  <a href="#">Appetizers</a>
+                </li>
+                <li class="main-content__categories__nav--item">
+                  <a href="#">Beverages</a>
+                </li>
+                <li class="main-content__categories__nav--item">
+                  <a href="#">Entrees</a>
+                </li>
+                <li class="main-content__categories__nav--item">
+                  <a href="#">Dessert</a>
+                </li>
+                <li class="main-content__categories__nav--item">
+                  <a href="#">Paste & Noodles </a>
+                </li>
+                <li class="main-content__categories__nav--item">
+                  <a href="#">Sandwiches </a>
+                </li>
+                <li class="main-content__categories__nav--item">
+                  <a href="#">Side Dish </a>
+                </li>
+                <li class="main-content__categories__nav--item">
+                  <a href="#">Soup & Salad </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+
+          <div class="main-content__cards">
+            <div class="main-content__card">
+              <img
+                src="img/cuban_sandwich.webp"
+                alt="Cuban Sandwich image"
+                class="main-content__card--img"
+              />
+              <h1 class="main-content__card--product">Cuban Sandwich</h1>
+              <p class="main-content__card--name">
+                Product <span>Sandwiches</span>
+              </p>
+              <p class="main-content__card--price">Price <span>$20</span></p>
+              <form action="#" class="main-content__card--form">
+                <div class="form-container">
+                  <label for="amount">Amount</label>
+                  <input
+                    type="number"
+                    min="1"
+                    step="1"
+                    max="5"
+                    defaultValue="1"
+                    value="1"
+                    required
+                  />
+                </div>
+
+                <div class="main-content__card--button">
+                  <button class="btn btn--card">Purchase</button>
+                </div>
+              </form>
+            </div>
+            <div class="main-content__card">
+              <img
+                src="img/Bruschetta.webp"
+                alt="Bruschetta image"
+                class="main-content__card--img"
+              />
+              <h1 class="main-content__card--product">Bruschetta</h1>
+              <p class="main-content__card--name">
+                Product <span>Appetizer</span>
+              </p>
+              <p class="main-content__card--price">Price <span>$6.55</span></p>
+              <form action="#" class="main-content__card--form">
+                <div class="form-container">
+                  <label for="amount">Amount</label>
+                  <input
+                    type="number"
+                    min="1"
+                    step="1"
+                    max="5"
+                    defaultValue="1"
+                    value="1"
+                    required
+                  />
+                </div>
+
+                <div class="main-content__card--button">
+                  <button class="btn btn--card">Purchase</button>
+                </div>
+              </form>
+            </div>
+            <div class="main-content__card">
+              <img
+                src="img/Chicken_Noodle_soup.webp"
+                alt=" Chicken_noodle_soup image"
+                class="main-content__card--img"
+              />
+              <h1 class="main-content__card--product">Chicken Noodle Soup</h1>
+              <p class="main-content__card--name">
+                Product <span>Soup</span>
+              </p>
+              <p class="main-content__card--price">Price <span>$2.55</span></p>
+              <form action="#" class="main-content__card--form">
+                <div class="form-container">
+                  <label for="amount">Amount</label>
+                  <input
+                    type="number"
+                    min="1"
+                    step="1"
+                    max="5"
+                    defaultValue="1"
+                    value="1"
+                    required
+                  />
+                </div>
+
+                <div class="main-content__card--button">
+                  <button class="btn btn--card">Purchase</button>
+                </div>
+              </form>
+            </div>
+            <div class="main-content__card">
+              <img
+                src="img/Vegitable_lasagna.webp"
+                alt=" Beef-stroganoff image"
+                class="main-content__card--img"
+              />
+              <h1 class="main-content__card--product">Vegetable Lasagna</h1>
+              <p class="main-content__card--name">
+                Product <span>Entrees</span>
+              </p>
+              <p class="main-content__card--price">Price <span>$4.55</span></p>
+              <form action="#" class="main-content__card--form">
+                <div class="form-container">
+                  <label for="amount">Amount</label>
+                  <input
+                    type="number"
+                    min="1"
+                    step="1"
+                    max="5"
+                    defaultValue="1"
+                    value="1"
+                    required
+                  />
+                </div>
+
+                <div class="main-content__card--button">
+                  <button class="btn btn--card">Purchase</button>
+                </div>
+              </form>
+            </div>
+
+            <div class="main-content__card">
+              <img
+                src="img/Mashed_potatoe.webp"
+                alt="image"
+                class="main-content__card--img"
+              />
+              <h1 class="main-content__card--product">Mashed Potatoe</h1>
+              <p class="main-content__card--name">
+                Product <span>Side Dish</span>
+              </p>
+              <p class="main-content__card--price">Price <span>$5.25</span></p>
+              <form action="#" class="main-content__card--form">
+                <div class="form-container">
+                  <label for="amount">Amount</label>
+                  <input
+                    type="number"
+                    min="1"
+                    step="1"
+                    max="5"
+                    defaultValue="1"
+                    value="1"
+                    required
+                  />
+                </div>
+
+                <div class="main-content__card--button">
+                  <button class="btn btn--card">Purchase</button>
+                </div>
+              </form>
+            </div>
+
+            <div class="main-content__card">
+              <img
+                src="img/Margherita_pizza.webp"
+                alt="image"
+                class="main-content__card--img"
+              />
+              <h1 class="main-content__card--product">Margherita Pizza</h1>
+              <p class="main-content__card--name">
+                Product <span>Pizza</span>
+              </p>
+              <p class="main-content__card--price">Price <span>$9.50</span></p>
+              <form action="#" class="main-content__card--form">
+                <div class="form-container">
+                  <label for="amount">Amount</label>
+                  <input
+                    type="number"
+                    min="1"
+                    step="1"
+                    max="5"
+                    defaultValue="1"
+                    value="1"
+                    required
+                  />
+                </div>
+
+                <div class="main-content__card--button">
+                  <button class="btn btn--card">Purchase</button>
+                </div>
+              </form>
+            </div>
+
+            <div class="main-content__card">
+              <img
+                src="img/Dessert_wine.webp"
+                alt=" Wine image"
+                class="main-content__card--img"
+              />
+              <h1 class="main-content__card--product">Dessert Wine</h1>
+              <p class="main-content__card--name">
+                Product <span>Dessert</span>
+              </p>
+              <p class="main-content__card--price">Price <span>$5.00</span></p>
+              <form action="#" class="main-content__card--form">
+                <div class="form-container">
+                  <label for="amount">Amount</label>
+                  <input
+                    type="number"
+                    min="1"
+                    step="1"
+                    max="5"
+                    defaultValue="1"
+                    value="1"
+                    required
+                  />
+                </div>
+
+                <div class="main-content__card--button">
+                  <button class="btn btn--card">Purchase</button>
+                </div>
+              </form>
+            </div>
+
+            <div class="main-content__card">
+              <img
+                src="img/Spicy_beef_noodles.webp"
+                alt=" Noodles image"
+                class="main-content__card--img"
+              />
+              <h1 class="main-content__card--product">Spicy Beef Noodles</h1>
+              <p class="main-content__card--name">
+                Product <span>paste & Noodles</span>
+              </p>
+              <p class="main-content__card--price">Price <span>$4.65</span></p>
+              <form action="#" class="main-content__card--form">
+                <div class="form-container">
+                  <label for="amount">Amount</label>
+                  <input
+                    type="number"
+                    min="1"
+                    step="1"
+                    max="5"
+                    defaultValue="1"
+                    value="1"
+                    required
+                  />
+                </div>
+
+                <div class="main-content__card--button">
+                  <button class="btn btn--card">Purchase</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="dishes-form">
+        <form class="form" action="#">
+          <span class="form__span--1 "></span>
+          <span class="form__span--2 form--active"></span>
+          <h2 class="form__heading">Book Reservation</h2>
+
+          <h3 class="form__sub-heading">Contact Information</h3>
+
+          <div class="form__group">
+            <input
+              type="text"
+              placeholder="Full name"
+              id="name"
+              class="form__input"
+              required
+            />
+            <label for="name" class="form__label">Full name</label>
+          </div>
+
+          <div class="form__group--A">
+            <input
+              type="email"
+              placeholder="Email"
+              id="Email"
+              class="form__input"
+              required
+            />
+            <label for="Email" class="form__label">Email</label>
+          </div>
+
+          <div class="form__group--B">
+            <input
+              type="number"
+              placeholder="Phone number"
+              id="number"
+              min="0"
+              class="form__input"
+              required
+            />
+            <label for="number" class="form__label">Phone number</label>
+          </div>
+
+          <h3 class="form__sub-heading--1">Resevation Details</h3>
+          <div class="form__group--1">
+            <input
+              type="date"
+              placeholder="date"
+              id="date"
+              class="form__input"
+              required
+            />
+            <label for="date" class="form__label">Date</label>
+          </div>
+
+          <div class="form__group--2">
+            <input type="time" id="time" class="form__input" required />
+            <label for="time" class="form__label">Time</label>
+          </div>
+
+          <div class="form__group--3">
+            <select name="guessDropdown" id="table" class="form__dropdown">
+              <option value="1">Single</option>
+              <option value="2">Copules</option>
+              <option value="5">Double Date</option>
+              <option value="10">Table of 10</option>
+              <option value="V.I.P>">V.I.P</option>
+            </select>
+            <label for="table" class="form__label">Table reservation</label>
+          </div>
+
+          <div class="form__group--4">
+            <textarea
+              name="special"
+              class="form__textarea"
+              placeholder="special resquest"
+              id="special"
+              cols="30"
+              rows="5"
+              required
+            ></textarea>
+            <label class="form__label">Special Request </label>
+          </div>
+
+          <div class="form__button">
+            <button type="submit" class="btn btn--form">Submit</button>
+          </div>
+        </form>
+      </div>
+      <div class="story">
+        <img src="img/classic resturant_1.webp" alt="" class="story__img--1" />
+        <img
+          src="img/classic_resturant_story_1.webp"
+          alt=""
+          class="story__img--2"
+        />
+      </div>
+      <div class="user-review">
+        <div class="bg-video">
+          <video class="bg-video--content" autoplay muted loop>
+            <source src="/img/Video.mp4" type="video/mp4" />
+
+            Your browser is not supported!
+          </video>
+        </div>
+
+        <div class="user-review__container">
+          <div class="user-review__story">
+            <p class="user-review__story--text">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos,
+              corporis veniam dignissimos doloremque sunt nam architecto non
+              iusto? Voluptas nemo velit ratione ipsa. Nemo, ab autem ad labore
+              porro aliquam!
+            </p>
+            <div class="user-review__container--2">
+            <figure class="user-review__story--imgs">
+              <img
+                src="img/classic_resturant_4.webp"
+                alt=""
+                class="user-review__story--imgs--img"
+              />
+              <figcaption class="user-review__story--imgs--caption">
+                Lord muse
+              </figcaption>
+            </figure>  
+            <div class="user-review__story--container">
+            <p class="user-review__story--date">Feb 15th, 2024</p>
+            <figure class="user-review__story--rating">
+              <svg class="user-review__story--star">
+                <use xlink:href="img/sprite.svg#icon-star"></use>
+              </svg>
+              <svg class="user-review__story--star">
+                <use xlink:href="img/sprite.svg#icon-star"></use>
+              </svg>
+              <svg class="user-review__story--star">
+                <use xlink:href="img/sprite.svg#icon-star"></use>
+              </svg>
+              <svg class="user-review__story--star">
+                <use xlink:href="img/sprite.svg#icon-star"></use>
+              </svg>
+              <svg class="user-review__story--star">
+                <use xlink:href="img/sprite.svg#icon-star"></use>
+              </svg>
+            </figure>
+            </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="user-review__container">
+          <div class="user-review__story">
+            <p class="user-review__story--text">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos,
+              corporis veniam dignissimos doloremque sunt nam architecto non
+              iusto? Voluptas nemo velit ratione ipsa. Nemo, ab autem ad labore
+              porro aliquam!
+            </p>
+            <div class="user-review__container--2">
+            <figure class="user-review__story--imgs">
+              <img
+                src="img/classic_resturant_4.webp"
+                alt=""
+                class="user-review__story--imgs--img"
+              />
+              <figcaption class="user-review__story--imgs--caption">
+                Lord muse
+              </figcaption>
+            </figure>  
+            <div class="user-review__story--container">
+            <p class="user-review__story--date">Feb 15th, 2024</p>
+            <figure class="user-review__story--rating">
+              <svg class="user-review__story--star">
+                <use xlink:href="img/sprite.svg#icon-star"></use>
+              </svg>
+              <svg class="user-review__story--star">
+                <use xlink:href="img/sprite.svg#icon-star"></use>
+              </svg>
+              <svg class="user-review__story--star">
+                <use xlink:href="img/sprite.svg#icon-star"></use>
+              </svg>
+              <svg class="user-review__story--star">
+                <use xlink:href="img/sprite.svg#icon-star"></use>
+              </svg>
+              <svg class="user-review__story--star">
+                <use xlink:href="img/sprite.svg#icon-star"></use>
+              </svg>
+            </figure>
+            </div>
+            </div>
+          </div>
+        </div>
+    
+
+        <div class="btn--more">
+          <button class="btn btn--font">View more &rarr;</button>
+        </div>
+      </div>
+
+      <footer class="footer">
+        <ul class="footer-nav">
+          <li class="footer-nav__item">
+            <a href="#" class="footer-nav__link"
+              ><span class="footer-nav__link__svg-container">
+                <svg class="footer-nav__link__icon footer-nav__link__icon--3">
+                  <use xlink:href="img/sprite.svg#icon-info_outline"></use></svg
+                >About Us
+              </span></a
+            >
+          </li>
+          <li class="footer-nav__item">
+            <a href="#" class="footer-nav__link"
+              ><span class="footer-nav__link__svg-container">
+                <svg class="footer-nav__link__icon footer-nav__link__icon--4">
+                  <use
+                    xlink:href="img/sprite.svg#icon-contact_phone"
+                  ></use></svg
+                >Contact Us
+              </span></a
+            >
+          </li>
+          <li class="footer-nav__item">
+            <a href="#" class="footer-nav__link"
+              ><span class="footer-nav__link__svg-container">
+                <svg class="footer-nav__link__icon footer-nav__link__icon--5">
+                  <use xlink:href="img/sprite.svg#icon-live_help"></use></svg
+                >FAQs
+              </span>
+            </a>
+          </li>
+          <li class="footer-nav__item">
+            <a href="#" class="footer-nav__link"
+              ><span class="footer-nav__link__svg-container">
+                <svg class="footer-nav__link__icon footer-nav__link__icon--6">
+                  <use
+                    xlink:href="img/sprite.svg#icon-wheelchair_pickup"
+                  ></use></svg
+                >Pick-Ups
+              </span>
+            </a>
+          </li>
+          <li class="footer-nav__item">
+            <a href="#" class="footer-nav__link"
+              ><span class="footer-nav__link__svg-container">
+                <svg class="footer-nav__link__icon footer-nav__link__icon--7">
+                  <use xlink:href="img/sprite.svg#icon-stack_overflow"></use>
+                </svg>
+                Tech-Stack
+              </span></a
+            >
+          </li>
+        </ul>
+        <p class="copyright">
+          &copy; Copyright 2024 by Nzube.D.Uche-Daniel. A showcase of innovative
+          dinning experiences.This application solves the need for an engaging
+          digital solution in the hospitality sector. This application was
+          designed and developed by me, Nzube.D.Uche-Daniel as part of my
+          Portifolio to demonstrate my skills in Html,Sass,React.js, Next.js,
+          Mongo DB,Express and Node.js. Conect with developer:
+          <a href="#" class="footer-nav__link"
+            ><span class="footer-nav__link__svg-container--1">
+              <svg class="footer-nav__link__icon footer-nav__link__icon--1">
+                <use xlink:href="img/sprite.svg#icon-linkedin"></use>
+              </svg> </span
+            >Linkedin</a
+          >
+          <a href="#" class="footer-nav__link">
+            <span class="footer-nav__link__svg-container--1">
+              <svg class="footer-nav__link__icon footer-nav__link__icon--2">
+                <use xlink:href="img/sprite.svg#icon-instagram"></use>
+              </svg> </span
+            >Instagram</a
+          >.
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>

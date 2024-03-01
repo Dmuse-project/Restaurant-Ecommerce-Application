@@ -1,0 +1,101 @@
+%heading{
+    font-weight:300;
+    font-family: "Open Sans";
+}
+
+
+.heading-1{
+    @extend %heading;
+    font-size:4.5rem;
+    line-height:1;
+    color: var(--color-grey-dark-3);
+
+    
+    @media only screen and (max-width:$bp-medium-large){
+      font-size:4.3rem;
+       }
+
+       @media only screen and (max-width:$bp-small-large){
+        font-size:4.5rem;
+         }
+
+
+       @media only screen and (max-width:$bp-medium){
+        font-size:4.4rem;
+         }
+
+         @media only screen and (max-width:$bp-small){
+            font-size:4.2rem;
+             }
+}
+
+.heading-2{
+    @extend %heading;
+    font-size: 4rem;
+    font-style:italic;
+    line-height:1;
+}
+
+.heading-3{
+    @extend %heading;
+    font-size: 1.6rem;
+    line-height: 1.6;
+    letter-spacing: 2px;
+
+    background-image: linear-gradient(to right, $color-secondary, $color-secondary-light);
+    -webkit-background-clip:text;
+    background-clip: text;
+    display:inline-block;
+    color:transparent;
+    
+   
+  
+    filter: brightness(80%);
+    text-transform:uppercase;
+
+    @media only screen and(max-width:$bp-normal-large){
+        display: grid;
+        align-self:end;
+      }
+
+}
+
+.heading-4{
+    @extend %heading;
+    font-size:1.9rem;
+
+    // &--light{color: $color-grey-light-1;}
+
+    // &--dark{color: $color-grey-dark-1;}
+}
+
+.heading-5{
+    @extend %heading;
+}
+
+// .btn{
+//     background-color: $color-primary;
+//     color:#fff;
+//     border:none;
+//     border-radius: 0;
+//     font-family:$font-display;
+//     text-transform:uppercase;
+//     padding: 1.8rem 3rem;
+//     cursor:pointer;
+//     transition:all .2s;
+
+//     // @media only screen and(max-width:$bp-extremly-small){
+//     //     font-size:1.5rem;  
+//     //    }
+    
+
+
+//     // &:hover {
+//     //     background-color: $color-primary-dark;
+//     // }
+// }
+
+.mb-sm { margin-bottom: 2rem; }
+.mb-md { margin-bottom: 3rem; }
+.mb-lg { margin-bottom: 4rem; }
+.mb-hg { margin-bottom: 8rem; }
