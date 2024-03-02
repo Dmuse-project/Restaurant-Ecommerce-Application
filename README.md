@@ -1,0 +1,1 @@
+This application solves the need for an engaging digital solution in the hospitality sector.This application was designed and developed by me, Nzube.D.Uche-Daniel as part of my Portifolio to demonstrate my skills in Html,Sass,React.js, Next.js, Mongo DB,Express and Node.js. Conect with developer
