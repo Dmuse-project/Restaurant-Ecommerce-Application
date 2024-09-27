@@ -45,7 +45,7 @@
       -webkit-mask-size: cover;
       mask-size: cover;
     }
-@media only screen and(max-width:$bp-normal-large){
+@media only screen and  (  max-width:$bp-normal-large){
   display: none;
 }
   }
@@ -188,7 +188,7 @@
   align-content: center;
   justify-content: center;
   
-  @media only screen and(max-width:$bp-large){
+  @media only screen and  (  max-width:$bp-large){
     padding:8rem;
     max-width:100%;
   }
@@ -206,7 +206,7 @@
     z-index: 2;
 
     
-  @media only screen and(max-width:$bp-large){
+  @media only screen and  (  max-width:$bp-large){
   
    max-width:100%;
   }
@@ -240,7 +240,7 @@
     transform: translateY(-35%);
 
     
-  @media only screen and(max-width:$bp-large){
+  @media only screen and  (  max-width:$bp-large){
     transform:translateY(150%);
   }
   }
@@ -269,7 +269,7 @@
   // justify-content: center;
 
   
-  @media only screen and(max-width:$bp-large){
+  @media only screen and  (  max-width:$bp-large){
     display:flex;
     justify-content:center;
     align-content:center;
@@ -300,14 +300,14 @@
 
 
     
-  @media only screen and(max-width:$bp-large){
+  @media only screen and  (  max-width:$bp-large){
     max-width:100%;
     width:75rem;
     height:32rem;
   }     
 
      
-  @media only screen and(max-width:$bp-normal-large){
+  @media only screen and  (  max-width:$bp-normal-large){
     width:70rem;
     height:26rem;
   }
@@ -805,7 +805,7 @@ transform: translateY(-2rem);
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
     gap: 3rem;
 
-    @media only screen and(max-width:$bp-medium){
+    @media only screen and ( max-width:$bp-medium){
       grid-template-columns: repeat(auto-fit, minmax(23rem, 1fr));
     }
   }
@@ -818,7 +818,7 @@ transform: translateY(-2rem);
     grid-template-columns: repeat(2, 1fr);
     row-gap: 1rem;
 
-    @media only screen and(max-width:$bp-medium){
+    @media only screen and ( max-width:$bp-medium){
       height:45rem;
     }
 
@@ -835,7 +835,7 @@ transform: translateY(-2rem);
       object-fit: cover;
 
 
-      @media only screen and(max-width:$bp-medium){
+      @media only screen and ( max-width:$bp-medium){
         height:20rem;
       }
     }
@@ -990,12 +990,12 @@ transform: translateY(-2rem);
       rgba($color-primary-dark, 0.5),
       rgba($color-primary-dark, 0.5)
     ),
-    url("/img/classic-night_resturant_club.webp");
+    url("../img/classic-night_resturant_club.webp");
 
   background-size: cover;
 
   
-  @media only screen and (max-width:$bp-medium){
+  @media only screen and  ( max-width:$bp-medium){
     height:63rem;
     
       }
@@ -1007,7 +1007,7 @@ transform: translateY(-2rem);
     width: 100%;
     box-shadow: 0rem 2rem 5rem rgba(#000, 0.1);
 
-    @media only screen and (max-width:$bp-medium){
+    @media only screen and  ( max-width:$bp-medium){
       width:75%;
       
         }
@@ -1021,7 +1021,7 @@ transform: translateY(-2rem);
     box-shadow: 0rem 2rem 5rem rgba(#000, 0.2);
     z-index: 2;
 
-    @media only screen and (max-width:$bp-medium){
+    @media only screen and  ( max-width:$bp-medium){
       width:63%;
       
         }
@@ -1045,7 +1045,7 @@ transform: translateY(-2rem);
     position: relative;
     transform: skew(-12deg);
 
-    @media only screen and (max-width:$bp-medium){
+    @media only screen and  ( max-width:$bp-medium){
       display:flex;
       justify-content:center;
      
@@ -1197,7 +1197,7 @@ transform: translateY(-2rem);
 
 .nav {
   position: relative;
-   @media only screen and (max-width:$bp-normal-large){
+   @media only screen and  ( max-width:$bp-normal-large){
       height:8rem;
       display:flex;
       justify-content:space-between;
@@ -1215,7 +1215,7 @@ transform: translateY(-2rem);
     display:flex;
     justify-content:center;
 
-    @media only screen and (max-width:$bp-normal-large){
+    @media only screen and  ( max-width:$bp-normal-large){
       display:flex;
       justify-content: end;
       align-items:center;
@@ -1228,7 +1228,7 @@ transform: translateY(-2rem);
   
   &__logo {
 
-    @media only screen and(max-width:$bp-normal-large){
+    @media only screen and ( max-width:$bp-normal-large){
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1264,7 +1264,7 @@ transform: translateY(-2rem);
   // WHEN THE HEADER IS HOVERD CHANGE THE TEXT
   &__logo:hover &__text {
     
-    @media only screen and (max-width:$bp-normal-large){
+    @media only screen and  ( max-width:$bp-normal-large){
     background-image: linear-gradient(
       to left,
       rgba($color-secondary, 0.5),
@@ -1275,7 +1275,7 @@ transform: translateY(-2rem);
 
   // WHEN THE LOGO IS HOVERED CHANGE THE BEFORE ELEMENT
   &__logo:hover::before {
-    @media only screen and (max-width:$bp-normal-large){
+    @media only screen and  ( max-width:$bp-normal-large){
     background-image: linear-gradient(
       to left,
       rgba($color-secondary, 0.5),
@@ -1293,7 +1293,7 @@ transform: translateY(-2rem);
     opacity:0;
     
    
-    @media only screen and (max-width:$bp-normal-large){
+    @media only screen and  ( max-width:$bp-normal-large){
       opacity:1;
       transform:translateY(0);
 

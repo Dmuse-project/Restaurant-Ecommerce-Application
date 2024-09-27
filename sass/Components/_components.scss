@@ -83,7 +83,7 @@
         transparent 50%,
         rgba(#fff, 0.9) 50%
       ),
-      url("/img/resturant\ backgroung.jpg");
+      url("../img/resturant\ backgroung.jpg");
   }
 
   &__span--2 {
@@ -98,7 +98,7 @@
         transparent 50%,
         rgba(#fff, 0.9) 50%
       ),
-      url("/img/resturant\ backgroung.jpg");
+      url("../img/resturant\ backgroung.jpg");
   }
 
   &__heading {
@@ -295,7 +295,7 @@
     margin-left: 0.5rem;
     margin-top:-4rem;
 
-    @media only screen and(max-width:$bp-medium-large){
+    @media only screen and ( max-width:$bp-medium-large){
       margin-top:0;
     }
   }
@@ -410,7 +410,7 @@
   }
 
   &__story {
-    height: 18em;
+    height: 18rem;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -468,7 +468,7 @@
           height: 7.3rem;
         }
 
-        @media only screen and(max-width:$bp-large) {
+        @media only screen and ( max-width:$bp-large) {
           width: 6.3rem;
           height: 6.3rem;
         }
